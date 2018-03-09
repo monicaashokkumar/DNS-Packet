@@ -104,8 +104,7 @@ responseFlagFilter1[6] -> Print('Response Opcode: Standard Query Response, AA: A
 responseFlagFilter1[7] -> Print('Response Opcode: Standard Query Response, AA: Authoritative server, TC: Message Truncated, RD: Client needs and authoritative answer') -> responseFlagFilter2;
 responseFlagFilter1[8] -> Print('Response Opcode: Inverse Query Response, AA: Not an authoritative server, TC: Message not truncated, RD: Client does not need a recursive answer') -> responseFlagFilter2; 
 responseFlagFilter1[9] -> Print('Response Opcode: Inverse Query Response, AA: Not an authoritative server, TC: Message not truncated, RD: Client needs a recursive answer') -> responseFlagFilter2;
-responseFlagFilter1[10] -> Print('Response Opcode: Inverse, AA: Not an authoritative server, TC: M
-essage Truncated, RD: Client does not need a recursive answer') -> responseFlagFilter2;          
+responseFlagFilter1[10] -> Print('Response Opcode: Inverse, AA: Not an authoritative server, TC: Message Truncated, RD: Client does not need a recursive answer') -> responseFlagFilter2;          
 responseFlagFilter1[11] -> Print('Response Opcode: Inverse Query Response, AA: Not an authoritative server, TC: Message Truncated, RD: Client needs an authoritative answer') -> responseFlagFilter2;
 responseFlagFilter1[12] -> Print('Response Opcode: Inverse Query Response, AA: Authoritative server, TC: Message not truncated, RD: Client does not need an authoritative answer') -> responseFlagFilter2;         
 responseFlagFilter1[13] -> Print('Response Opcode: Inverse Query Response, AA: Authoritative server, TC: Message not truncated, RD: Client needs an authoritative answer') -> responseFlagFilter2; 
